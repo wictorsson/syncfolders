@@ -46,7 +46,7 @@ def UserInput(param):
                     print("An error occurred:")
 
 def main():
-    print("Welcome")
+    print("Sync two folders")
     syncInterval = UserInput("int")
     sourceFolder = UserInput("source")
     replicaFolder = UserInput("replica")
